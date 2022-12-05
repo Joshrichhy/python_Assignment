@@ -48,10 +48,7 @@ print(hello.replace("l", "t", ))
 #
 for i in range(21, 0, -2):
      asterisk = "*" * i
-     print(f"{asterisk:<21}", f"{asterisk:>"
-                              f""
-                              f""
-                              f"22}")
+     print(f"{asterisk:<21}", f"{asterisk:>22}")
 # merry = "merry christmas"
 # print(merry.upper().center(19, "*"))
 # for i in range(1, 3):

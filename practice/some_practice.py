@@ -9,6 +9,7 @@
 # new_file.write("hello Renike, how is your reading going?")
 # new_file.writelines(["Hello", " how is it going\n do not worry\nyou just entered your second month"])
 # new_file.close()
+
 #
 # new_file = open("renike.txt", "r")
 # print(new_file.readlines())

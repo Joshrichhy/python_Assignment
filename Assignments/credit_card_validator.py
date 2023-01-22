@@ -4,8 +4,7 @@ print("*************************************")
 print("****Card Number: ", card_details)
 
 
-def card_validate(card_number):
-    if len(card_number) <= 13 or len(card_number) > 16:
+def card_validate(card_number)    if len(card_number) <= 13 or len(card_number) > 16:
         return "invalid"
     else:
         return "Valid"

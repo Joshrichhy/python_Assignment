@@ -1,4 +1,3 @@
-
 def add_even(card):
     total_sum_of_even_digit_number = 0
     for number in range(len(card) - 2, -1, -2):
@@ -16,9 +15,6 @@ def add_odd_numbers(card_number):
     for i in range(len(card_number) - 1, -1, -2):
         sum_of_odd_digit += int(card_number[i])
     return sum_of_odd_digit
-
-
-
 
 
 class Credit_card_validator:
@@ -69,4 +65,3 @@ class Credit_card_validator:
         else:
             print("****Card Type Validity: invalid")
             return "invalid"
-
